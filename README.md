@@ -3,8 +3,7 @@ This repository contains a fun and interactive Tic-Tac-Toe game with a mesmerizi
 
 Welcome to the Tic-Tac-Toe with Starry Background repository! This project combines the classic game of Tic-Tac-Toe with a mesmerizing starry background animation, creating an enjoyable and cosmic gaming experience.
 
-# Live Demo
-[**Check out the live demo here!**](#) <!-- Add your live demo link here -->
+# [Live Demo](https://tic-tac-toe-game-sm.netlify.app)
 
 ## How to Play
 1. Open the game using the live demo link above.
