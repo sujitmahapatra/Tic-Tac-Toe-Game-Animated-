@@ -1,0 +1,132 @@
+body {
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(45deg, #1b2735, #1d2f4a, #1b2735, #1d2f4a);
+    background-size: 400% 400%;
+    animation: gradient 15s linear infinite;
+    margin: 0;
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border: 2px solid #04c0b2;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+    background-color: #11213a;
+    color: #04c0b2;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cell:hover {
+    background-color: #04c0b2;
+    color: #fff;
+}
+
+.game--title {
+    font-size: 100px;
+    color: #d7a62f;
+    margin: 10px auto;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    background-color: #11213a;
+    color: #04c0b2;
+    border: 2px solid #04c0b2;
+    border-radius: 10px;
+}
+
+.game--status {
+    font-size: 50px;
+    color: #d7a62f;
+    margin: 20px auto;
+}
+
+.game--restart {
+    background-color: #f7e4ac;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: #5586e2;
+    box-shadow: 2px 2px 2px 2px #d86c23;
+    border: 2px solid #d86c23;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.game--restart:hover {
+    background-color: #d86c23;
+    color: #fff;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Your existing CSS code remains unchanged */
+
+/* Add styles for the stars */
+.star {
+    position: fixed;
+    background: white;
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    animation: twinkle 5s linear infinite, moveStar 10s linear infinite;
+}
+
+@keyframes twinkle {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes moveStar {
+    0% {
+        transform: translate(-50%, -50%);
+    }
+    100% {
+        transform: translate(calc(-50% + 800px), calc(-50% + 600px));
+    }
+}
+
+/* Add styles for the canvas */
+#starry-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+}
+
+p{
+  color: grey;
+  margin-top: -10px;
+}
