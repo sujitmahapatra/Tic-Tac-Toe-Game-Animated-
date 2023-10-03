@@ -1,9 +1,13 @@
 # Tic-Tac-Toe-Game using JS (Animated)
 This repository contains a fun and interactive Tic-Tac-Toe game with a mesmerizing starry background animation. Enjoy playing the classic game while watching stars twinkle and move in the night sky. Perfect for a relaxing gaming experience with a touch of cosmic charm.
 
-Welcome to the Tic-Tac-Toe with Starry Background repository! This project combines the classic game of Tic-Tac-Toe with a mesmerizing starry background animation, creating an enjoyable and cosmic gaming experience.
+<h1 align="center">
+  👉<a href="https://tic-tac-toe-game-sm.netlify.app" target="_blank" rel="noopener noreferrer">Live Demo</a>
+</h1>
 
-# [Live Demo](https://tic-tac-toe-game-sm.netlify.app)
+![Output](https://github.com/sujitmahapatra/Tic-Tac-Toe-Game-Animated-/blob/8697a4a143d5e6bda3eb9ab6e48969df26996681/Screenshot%202023-10-03%20224149.png)
+
+Welcome to the Tic-Tac-Toe with Starry Background repository! This project combines the classic game of Tic-Tac-Toe with a mesmerizing starry background animation, creating an enjoyable and cosmic gaming experience.
 
 ## How to Play
 1. Open the game using the live demo link above.
